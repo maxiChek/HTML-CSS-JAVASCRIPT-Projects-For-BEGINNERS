@@ -1,1 +1,1 @@
-# 10 Projects using HTML CSS and JAVASCRIPT
+# Projects using HTML CSS and JAVASCRIPT
