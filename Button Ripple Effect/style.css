@@ -10,7 +10,7 @@ body {
 
 .btn {
     background-color: pink;
-    padding: 20px 40px;
+    padding: 30px 50px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-decoration: none;
@@ -25,15 +25,15 @@ body {
 
 .btn::before {
     content: "";
-    /* position: absolute; */
-    /* background-color: orangered; */
-    /* width: 0; */
-    /* height: 0; */
-    /* left: var(--xPos); */
-    /* top: var(--yPos); */
-    /* transform: translate(-50%, -50%); */
-    /* border-radius: 50%; */
-    /* transition: width 0.5s, height 0.5s; */
+    position: absolute;
+    background-color: orangered;
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
 }
 
 .btn:hover::before {
